@@ -6,8 +6,8 @@ spec:
   accessModes:
     - ReadWriteMany
   capacity:
-    storage: 100Gi
+    storage: 50Gi
   persistentVolumeReclaimPolicy: Retain
   nfs:
     path: /shares/registry
-    server: 192.168.22.1
+    server: 192.168.243.152
