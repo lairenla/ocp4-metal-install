@@ -30,8 +30,8 @@ api-int.lab.ocp.lan.    IN    A    192.168.243.152
 
 ; ETCD Cluster
 etcd-0.lab.ocp.lan.    IN    A     192.168.243.158
-etcd-1.lab.ocp.lan.    IN    A     192.168.243.158
-etcd-2.lab.ocp.lan.    IN    A     192.168.243.158
+etcd-1.lab.ocp.lan.    IN    A     192.168.243.159
+etcd-2.lab.ocp.lan.    IN    A     192.168.243.160
 
 ; OpenShift Internal SRV records (cluster name = lab)
 _etcd-server-ssl._tcp.lab.ocp.lan.    86400     IN    SRV     0    10    2380    etcd-0.lab
